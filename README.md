@@ -26,6 +26,12 @@ Una API RESTful de gestión de artículos en `Markdown` para la Universidad de G
     cd nabu-api
     composer install
 
+## Base de datos
+
+Construye la base de datos de la aplicación:
+
+    mysql -u username -p < db.sql
+
 ## Ejecución
 
     composer run serve
