@@ -9,7 +9,11 @@
         }
     },
     "scripts": {
-        "serve": "php -S localhost:8080 -t public/"
+        "serve": [
+            "Composer\\Config::disableProcessTimeout",
+            "php -S localhost:8080 -t public/"
+        ],
+        "format": "vendor/bin/php-cs-fixer fix --diff"
     },
     "authors": [
         {
@@ -32,6 +36,6 @@
         "peppeocchi/php-cron-scheduler": "^4.0"
     },
     "require-dev": {
-        "tightenco/tlint": "^6.3"
+        "codeigniter/coding-standard": "^1.5"
     }
 }

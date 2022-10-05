@@ -42,7 +42,7 @@ Construye la base de datos de la aplicación:
 
 * [PHP - Referencia del lenguaje](https://www.php.net/manual/es/langref.php)
 * [Flight - An extensible micro-framework for PHP](https://flightphp.com/)
-* [TLint - Tighten linter for Laravel conventions](https://github.com/tighten/tlint)
+* [CodeIgniter Coding Standard](https://github.com/CodeIgniter/coding-standard)
 
 ## Licencia
 
